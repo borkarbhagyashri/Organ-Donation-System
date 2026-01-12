@@ -1,0 +1,84 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Background */
+  body {
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Login Card */
+  .login-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    max-width: 90%;
+  }
+  
+  /* Title */
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  .login-container input[type="email"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border 0.3s ease;
+  }
+  
+  .login-container input[type="email"]:focus,
+  .login-container input[type="password"]:focus {
+    border-color: #74ebd5;
+    outline: none;
+  }
+  
+  /* Button */
+  .login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #74ebd5;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-container button:hover {
+    background-color: #57c9c0;
+  }
+  
+  /* Link */
+  .login-container p {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .login-container a {
+    color: #57c9c0;
+    text-decoration: none;
+  }
+  
+  .login-container a:hover {
+    text-decoration: underline;
+  }
+  

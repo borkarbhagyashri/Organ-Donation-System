@@ -1,0 +1,75 @@
+/* body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.08);
+} */
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2d3436;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table thead {
+    background-color: #dfe6e9;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 1px solid #dcdde1;
+}
+
+.pending {
+    color: #e67e22;
+    font-weight: 600;
+}
+
+.matched {
+    color: #27ae60;
+    font-weight: 600;
+}
+
+.completed {
+    color: #2980b9;
+    font-weight: 600;
+}
+
+.rejected {
+    color: #e74c3c;
+    font-weight: 600;
+}
+
+.no-data {
+    text-align: center;
+    color: #636e72;
+    font-size: 16px;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    color: #636e72;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
